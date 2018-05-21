@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Homemade+Apple');
+
+#quote-background {
+    background: linear-gradient(to bottom right, black, silver) ;
+    border-top: 2px solid grey
+}
+
+.quote {
+    font-family: 'Homemade Apple', cursive;
+    text-align: center;
+    font-size: 16px;
+    padding-top: 8px;
+    margin: 0;
+    color: white;
+    line-height: 30px;
+    letter-spacing: 2px
+}
+
+.author {
+    font-family: 'Homemade Apple', cursive;
+    padding-left: 800px;
+    padding-bottom: 5px;
+    font-size: 14px;
+    margin: 0;
+    color: white;
+    letter-spacing: 2px
+}

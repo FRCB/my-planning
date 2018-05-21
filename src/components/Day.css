@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Mr+Dafoe');
+
+#all-days {
+    font-family: 'Mr Dafoe', cursive;
+    font-size: 28px;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 4px 0;
+    border-top: 2px solid black;
+    border-bottom: 1px solid black;
+    border-color: grey;
+    background: linear-gradient(to bottom right, silver, white);
+    color: rgb(51, 51, 51);
+    letter-spacing: 1px;
+}

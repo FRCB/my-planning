@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=La+Belle+Aurore');
+
+
+.taskInput {
+    border: none;
+    text-align: center;
+    width: 98%;
+    height: 30px;
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 19px;
+}
+
+.taskInputButton {
+    border-radius: 50%;
+    font-size: 8px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+
+}
+
+#add-box {
+    border-top: none;
+    padding-bottom: 3px;
+    border-bottom: 1px solid grey;
+    background: white
+}
+
+.break {
+    margin: -20px
+}
+
+#task-display {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: rgb(234, 234, 234)
+}
+
+.text-display {
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 18px;
+    text-align: center;
+    margin: -10px;
+    padding-top: 10px
+}
+
+.new-edit {
+    display: none;
+} 
+
+.actual-task {
+    font-family: 'La Belle Aurore', cursive;
+}
+
+.edit-button {
+    font-size: 8px;
+    margin: 0;
+    border: none;
+    color: grey;
+    background: rgb(234, 234, 234)
+}
+
+.delete-button {
+    font-size: 8px;
+    margin: 0; 
+    color: grey;
+    border: none; 
+    background: rgb(234, 234, 234)
+}

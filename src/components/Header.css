@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Mr+Dafoe');
+
+.Header {
+    background-image: url("https://photo.paris/site/wp-content/uploads/2017/04/Kioro-For%C3%AAt-dacier-Panoramique.jpg");
+    background-size: 100% 200px;
+    position: relative;
+    height: 26vh;
+}
+
+.Header-content {
+    font-family: 'Mr Dafoe', cursive;
+    color: white;
+    text-align: right;
+    padding-right: 20px;
+    font-size: 100px;
+    margin: 0;
+    padding-top: 23px;
+    letter-spacing: 18px;
+    text-shadow: 6px 6px 5px black;
+}

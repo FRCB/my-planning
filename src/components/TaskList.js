@@ -19,6 +19,11 @@ export default class AddTask extends Component {
         this.handleNewEdit = this.handleNewEdit.bind(this)
     }
 
+    componentDidMount() {
+        axios.get(`/api/addTask/`, { text: this.state.taskInput, date: this.props.day }).then(res => {
+            this.setState({ tasks: res.data })
+        });
+    };
 
     addTask() {
         axios.post(`/api/addTask/`, { text: this.state.taskInput, date: this.props.day }).then(res => {
@@ -78,7 +83,6 @@ export default class AddTask extends Component {
                     {list}
                 </div>
             </div >
-
         );
     }
 }

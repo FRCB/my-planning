@@ -10,6 +10,7 @@ const tc = require(`./tasks_controllers.js`)
 
 app.get('https://tehuano-time-zone-v1.p.mashape.com/api2/timezone/48.853/2.35', tc.time);
 app.get('https://andruxnet-random-famous-quotes.p.mashape.com/', tc.read);
+app.get('/api/addTask/', tc.read);
 app.post('/api/addTask/', tc.create);
 app.put('/api/editTask/:id', tc.update);
 app.delete('/api/removeTask/:id', tc.delete);

@@ -13,7 +13,7 @@ export default class Time extends Component {
     }
 
     componentDidMount() {
-        axios.get('https://tehuano-time-zone-v1.p.mashape.com/api2/timezone/48.853/2.35', { headers: { "X-Mashape-Key": 'YRsvfxircSmsh4Wjz4NWO3D6t5brp1y79cNjsnNrCuQszEem60' } }).then(res => {
+        axios.get('https://tehuano-time-zone-v1.p.mashape.com/api2/timezone/14.025/2.20', { headers: { "X-Mashape-Key": 'YRsvfxircSmsh4Wjz4NWO3D6t5brp1y79cNjsnNrCuQszEem60' } }).then(res => {
             this.setState({ time: res.headers.date.slice(0, 25) })
         })
 

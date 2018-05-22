@@ -38,8 +38,7 @@ export default class UpdateList extends Component {
                     className={this.state.switch ? "" : "new-edit"}
                     onChange={this.props.newTask}
                 />
-
-            </div >
+            </div>
         );
     }
 }
